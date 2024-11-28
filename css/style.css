@@ -27,7 +27,51 @@ Color 5: #090A3B;
 */
 
 * {
-    font-family: "Patrick Hand", cursive;
-    font-weight: 400;
-    font-style: normal;
+	font-family: "Patrick Hand", cursive;
+	font-weight: 400;
+	font-style: normal;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	background-color: red;
+	padding: 2%;
+}
+
+header nav a {
+	margin-right: 6px;
+}
+
+main {
+	display: flex;
+	height: 100vh;
+}
+
+#index {
+	border-right: 1px solid black;
+	width: 15vw;
+	display: flex;
+	justify-content: center;
+}
+
+#games {
+	width: 70vw;
+	display: flex;
+	justify-content: center;
+}
+
+#score {
+	border-left: 1px solid black;
+	width: 15vw;
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	border-top: 1px solid black;
+	padding: 1%;
+	text-align: center;
 }

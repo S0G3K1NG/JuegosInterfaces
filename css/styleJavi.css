@@ -10,16 +10,10 @@
 }
 
 
-#fila1, #fila2{
+.filas{
     border: 1px solid black;
     display: flex;
     justify-content: center;
-}
-
-#fila3{
-    border: 1px solid black;
-    display: flex;
-
 }
 
 
@@ -29,13 +23,9 @@
 }
 
 
-.listaJuegoDieciseis{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
 #contenedorJuegosJavi16 div  {
     display: flex;
+    grid-template-rows: 1fr;
     justify-content: center;
 }
+

@@ -1,0 +1,10 @@
+#imagenCumpleaños{
+    width: 500px;
+    align-items: center;
+}
+
+#contenedorJuegosJavi{
+    display: grid;
+    grid-template-rows: 20%, 1fr, 20%;
+    gap: 32px;
+}

@@ -3,8 +3,39 @@
     align-items: center;
 }
 
-#contenedorJuegosJavi{
+#contenedorJuegosJavi15{
     display: grid;
-    grid-template-rows: 20%, 1fr, 20%;
+    grid-template-rows: 5% 4% 58%;
     gap: 32px;
+}
+
+
+#fila1, #fila2{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+#fila3{
+    border: 1px solid black;
+    display: flex;
+
+}
+
+
+#contenedorJuegosJavi h2 {
+    display: flex;
+    justify-content: left;
+}
+
+
+.listaJuegoDieciseis{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#contenedorJuegosJavi16 div  {
+    display: flex;
+    justify-content: center;
 }

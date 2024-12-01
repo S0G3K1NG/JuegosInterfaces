@@ -60,7 +60,7 @@ main {
 
 #games {
 	width: 70vw;
-	display: flex;
+	display: grid;
 	justify-content: center;
 	flex-direction: column;
 	gap: 10px;

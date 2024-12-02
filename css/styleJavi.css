@@ -1,5 +1,5 @@
 #imagenCumpleaños{
-    width: 500px;
+    width: 800px;
     align-items: center;
 }
 
@@ -8,6 +8,7 @@
     grid-template-rows: 5% 4% 58%;
     gap: 32px;
     width: 100%;
+    height: 100%;
 }
 
 
@@ -78,6 +79,30 @@
 }
 
 #juego22{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+#juego22 > div:first-child{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+#imagenFamilia{
+    width: 700px;
+}
+
+textarea{
+    width: 850px;
 }

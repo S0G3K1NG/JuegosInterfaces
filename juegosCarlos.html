@@ -4,99 +4,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleCarlos.css">
 </head>
 
 <body>
-    <p>23. Desxifra el codi i dibuixa el persontatge al seu lloc:</p>
+    <header>
+        <!-- Logo -->
+        <h2>Juegos.com</h2>
 
-    <br>
-    <table border="2">
-        <thead>
-            <tr>
-                <th></th>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <th>4</th>
-            </tr>
-        </thead>
-        <thbody>
-            <tr>
-                <td>A</td>
-                <td>ELLA</td>
-                <td>I</td>
-                <td>CASTANYS</td>
-                <td>GERMANS</td>
-            </tr>
-            <tr>
-                <td>B</td>
-                <td>TÉ</td>
-                <td>UNA</td>
-                <td>ANNA</td>
-                <td>ES</td>
-            </tr>
-            <tr>
-                <td>C</td>
-                <td>UN</td>
-                <td>CABELLS</td>
-                <td>ANYS</td>
-                <td>BLAUS</td>
-            </tr>
-            <tr>
-                <td>D</td>
-                <td>ELS</td>
-                <td>DOS</td>
-                <td>BARRET</td>
-                <td>DIU</td>
-            </tr>
-            <tr>
-                <td>E</td>
-                <td>PORTA</td>
-                <td>GERMANA</td>
-                <td>VINIT</td>
-                <td>ULLS</td>
-            </tr>
-        </thbody>
-    </table>
+        <!-- Navegacion -->
+        <nav>
+            <a href="#">Inicio</a>
+            <select name="categorias" id="categorias">
+                <option value="-1">Categorias</option>
+            </select>
+        </nav>
+    </header>
+    <main>
+        <!-- Indice de la pagina -->
+        <aside id="index">
+            <p>Index</p>
+        </aside>
 
-    <br>
-    <ul>
-        <li>________ ________ ________ ________ .</li>
+        <!-- Seccion de los juegos -->
+        <section id="games">
+            <p>23. Desxifra el codi i dibuixa el persontatge al seu lloc:</p>
 
-        <li>________ ________ ________ ________ ________ <br>
-            ________ ________ ________.</li>
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                    </tr>
+                </thead>
+                <thbody>
+                    <tr>
+                        <td>A</td>
+                        <td>ELLA</td>
+                        <td>I</td>
+                        <td>CASTANYS</td>
+                        <td>GERMANS</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td>TÉ</td>
+                        <td>UNA</td>
+                        <td>ANNA</td>
+                        <td>ES</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>UN</td>
+                        <td>CABELLS</td>
+                        <td>ANYS</td>
+                        <td>BLAUS</td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td>ELS</td>
+                        <td>DOS</td>
+                        <td>BARRET</td>
+                        <td>DIU</td>
+                    </tr>
+                    <tr>
+                        <td>E</td>
+                        <td>PORTA</td>
+                        <td>GERMANA</td>
+                        <td>VINIT</td>
+                        <td>ULLS</td>
+                    </tr>
+                </thbody>
+            </table>
+
+            <ul class="lineas-codigo">
+                <li>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">A1</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">B1</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">E3</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">C3</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">B1</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">D1</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">E4</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">C4</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">A2</span>
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">D1</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">C2</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">A3</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">B1</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">D2</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">A4</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">A2</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">B2</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">E2</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">E1</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">C1</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">D3</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">B4</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">D4</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" maxlength="8" class="linea-input">
+                        <span class="etiqueta">B3</span>
+                    </div>
+                </li>
+            </ul>
             
-        <li>________ ________ ________ ________ ________ ________ .</li>
+            <table class="info-table">
+                <thbody>
+                    <tr>
+                        <td>NOM:</td>
+                    </tr>
+                    <tr>
+                        <td>EDAT:</td>
+                    </tr>
+                    <tr>
+                        <td>CABELLS:</td>
+                    </tr>
+                    <tr>
+                        <td>GERMANS:</td>
+                    </tr>
+                    <tr>
+                        <td>GERMANES:</td>
+                    </tr>
+                </thbody>
+            </table>
+        </section>
 
-        <li>________ ________ ________ .</li>
-
-        <li>________ ________ ________ .</li>
-    </ul>
-
-    <br>
-
-    <table border="2">
-        <thbody>
-            <tr>
-                <td>NOM:</td>
-            </tr>
-            <tr>
-                <td>EDAT:</td>
-            </tr>
-            <tr>
-                <td>CABELLS:</td>
-            </tr>
-            <tr>
-                <td>GERMANS:</td>
-            </tr>
-            <tr>
-                <td>GERMANES:</td>
-            </tr>
-        </thbody>
-    </table>
+         <!-- Puntuacion -->
+         <aside id="score">
+            <p>Score</p>
+        </aside>
+    </main>
+    <footer>
+        <h4>Creado por Javier Peñalba, César Torres, Carlos Ripollés y David Doichita</h4>
+    </footer>
 </body>
 </html>

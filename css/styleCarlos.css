@@ -23,39 +23,68 @@ header nav {
 .tabla th, .tabla td {
     border: 1px solid black;
     padding: 8px;
+    
+}
+
+.tabla th {
+    font-weight: bold;
 }
 
 .lineas-codigo {
-    padding-right: 120px;
-    margin: 20px auto;
+    padding: 0;
+    margin: 20px 70px;
+    text-align: left;
+}
+
+.grupo-linea {
+    display: inline-block;
+    margin: 0 15px 10px 0;
+    text-align: center;
+    vertical-align: -120%;
 }
 
 .linea-input {
     border: none;
     border-bottom: 1px solid black;
     width: 50px;
-    outline: none;
     text-align: center;
-    margin-bottom: auto;
+    font-size: 18px;
+    outline: none;
+    padding: 5px 0;
 }
 
-.input-group {
-    display: inline-block;
-    text-align: center;
-    margin-right: 20px;
+li {
+    margin-bottom: 15px;
 }
 
 .etiqueta {
     display: block;
-    margin-top: auto;
+    margin-top: 5%;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
 }
 
-.tabla-info {
+.container {
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+.info-box {
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 0;
+    position: relative;
+}
+
+.info-table {
+    font-size: 18px;
     width: 100%;
     border-collapse: collapse;
-}
-
-.tabla-info td {
-    border: 1px solid black;
-    padding: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
 }

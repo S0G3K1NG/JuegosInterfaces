@@ -27,78 +27,78 @@ Color 5: #090A3B;
 */
 
 * {
-  font-family: "Patrick Hand", cursive;
-  font-weight: 400;
-  font-style: normal;
-  padding: 0;
-  margin: 0;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
 }
 
 header {
-  display: flex;
-  justify-content: space-around;
-  background-color: #708ea4;
-  padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #708ea4;
+    padding: 2%;
 }
 
 header nav a {
-  margin-right: 6px;
+    margin-right: 6px;
 }
 
 main {
-  display: flex;
-  height: 100vh;
+    display: flex;
+    height: 100vh;
 }
 
 #index {
-  border-right: 1px solid black;
-  width: 15vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    border-right: 1px solid black;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #games {
-  width: 70vw;
-  display: grid;
-  flex-direction: column;
-  align-items: center;
-  overflow: scroll;
+    width: 70vw;
+    display: grid;
+    flex-direction: column;
+    align-items: start;
+    overflow: scroll;
 }
 
 #games-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 #score {
-  border-left: 1px solid black;
-  width: 15vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    border-left: 1px solid black;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
-  border-top: 1px solid black;
-  padding: 1%;
-  text-align: center;
+    border-top: 1px solid black;
+    padding: 1%;
+    text-align: center;
 }
 
 a {
-  text-decoration: none;
-  color: #090a3b;
+    text-decoration: none;
+    color: #090a3b;
 }
 
 a:hover {
-  color: #333577;
+    color: #333577;
 }
 
 .title {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #486e88;
-  width: 100%;
-  text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #486e88;
+    width: 100%;
+    text-align: center;
 }

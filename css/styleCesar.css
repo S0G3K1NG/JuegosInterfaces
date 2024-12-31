@@ -1,0 +1,123 @@
+
+.imagenesAnimales {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    text-align: center;
+}
+
+.imagenesAnimales div {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.imagenesAnimales img {
+    display: block;
+    margin: 5px auto 5px;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.imagenesAnimales2 {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    align-items: flex-start; 
+    text-align: center;
+}
+
+.imagenesAnimales2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.imagenesAnimales2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.imagenesAnimales2 input {
+    width: 80%; 
+    padding: 5px; 
+    margin-top: 5px;
+}
+
+.figura img{
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+#games-container input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 40%;
+    text-align: left;
+    font-size: 18px;
+    outline: none;
+    padding: 5px 0;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+#games-container #game1, #games-container #game2, #games-container #game3, #games-container #game4, #games-container #game31, #games-container #game32, #games-container #game33 {
+    background-color: white;
+    border: 1px solid #29516D;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#games-container div h4 {
+    font-size: 18px;
+    color: #032137;
+    margin-bottom: 10px;
+}
+
+#games-container div p {
+    font-size: 16px;
+    color: #123752;
+    margin-bottom: 10px;
+}
+
+#games-container div ul,
+#games-container div ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#games-container div ul li,
+#games-container div ol li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#games-container div table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#games-container div table th,
+#games-container div table td {
+    border: 1px solid #486E88;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#games-container div table th {
+    background-color: #486E88;
+    color: #fff;
+}
+
+#games-container p{
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+

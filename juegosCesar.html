@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleCesar.css">
 </head>
 
 <body>
@@ -27,19 +28,241 @@
     <main>
         <!-- Indice de la pagina -->
         <aside id="index">
-            <p>Index</p>
+            <div class="title">
+                <h3>Indice</h3>
+            </div>
+            <div class="control">
+                <ul>
+                    <li><a href="#game1">Juego 1</a></li>
+                    <li><a href="#game2">Juego 2</a></li>
+                    <li><a href="#game3">Juego 3</a></li>
+                    <li><a href="#game4">Juego 4</a></li>
+                    <li><a href="#game31">Juego 31</a></li>
+                    <li><a href="#game32">Juego 32</a></li>
+                    <li><a href="#game33">Juego 33</a></li>
+                </ul>
+            </div>
         </aside>
 
         <!-- Seccion de los juegos -->
         <section id="games">
-            <p>Game</p>
+            <!-- Zona de los juegos -->
+            <div id="games-container">
+                <!-- Ejercicio 1 -->
+                <div id="game1">
+                    <h4>Juego 1</h4>
+                    <h3>Escriu el nom dels animals que tens dibuixats i el de les parts del seu cos:</h3>
+                    <div class="imagenesAnimales">
+                        <div>
+                            <img src="imgs/gallina.png" alt="Gallina"> <input type="text" id="gallina">
+                        </div>
+                        <div>
+                            <img src="imgs/cocodrilo.png" alt="cocodrilo"> <input type="text" id="cocodrilo">
+                        </div>
+                        <div>
+                            <img src="imgs/leon.png" alt="leon"> <input type="text" id="leon">
+                        </div>
+                        <div>
+                            <img src="imgs/pez.png" alt="pez"> <input type="text" id="pez">
+                        </div>
+                    </div>
+                    <br>
+                </div>
 
-            
+                <!-- Ejercicio 2 -->
+                <div id="game2">
+                    <h4>Juego 2</h4>
+                    <h3>Completa el quadre amb noms d'animals:</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Mamífers</th>
+                                <th>Rèptils</th>
+                                <th>Peixos</th>
+                                <th>Aus</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="text" id="mamifers"></td>
+                                <td><input type="text" id="reptils"></td>
+                                <td><input type="text" id="peixos"></td>
+                                <td><input type="text" id="aus"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" id="mamifers"></td>
+                                <td><input type="text" id="reptils"></td>
+                                <td><input type="text" id="peixos"></td>
+                                <td><input type="text" id="aus"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" id="mamifers"></td>
+                                <td><input type="text" id="reptils"></td>
+                                <td><input type="text" id="peixos"></td>
+                                <td><input type="text" id="aus"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" id="mamifers"></td>
+                                <td><input type="text" id="reptils"></td>
+                                <td><input type="text" id="peixos"></td>
+                                <td><input type="text" id="aus"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+
+                </div>
+
+                <!-- Ejercicio 3 -->
+                <div id="game3">
+                    <h4>Juego 3</h4>
+                    <h3>Escolta el teu professor o professora. Posa el número corresponent a cada dibuix:</h3>
+                    <div class="imagenesAnimales2">
+                        <div>
+                            <img src="imgs/conejo.png" alt="Conill">
+                            <input type="text">
+                        </div>
+                        <div>
+                            <img src="imgs/tigre.png" alt="Tigre">
+                            <input type="text">
+                        </div>
+                        <div>
+                            <img src="imgs/oso.png" alt="Ós">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <br>
+
+                </div>
+
+                <!-- Ejercicio 4 -->
+                <div id="game4">
+                    <h4>Juego 4</h4>
+                    <h3>Llegeix el text i contesta les preguntes:</h3>
+                    <p>Els goril-les són animals mamifers que vien a la selva africana. No són violents ni ataquen altres animals. Són basicament herbívors; mengen herbes, plantes i fruites.
+                        Els goril-les no viuen als arbres perquè són uns animals molt grossos, però el que sí que fan és enfilar-s'hi i saltar de l'un a l'altre. No poden nedar. Tenen el cos cobert de pèl i quan són petits mamen llet de la mare.
+                        Poden viure molts anys; alguns arriben fins als 40 .</p>
+
+                    <ol>
+                        <li>
+                            Els goril·les viuen a l'Índia?
+                            <td><input type="text" id="preguntaGorila1"></td>
+                        </li>
+                        <li>
+                            Els goril·les mengen carn? 
+                            <td><input type="text" id="preguntaGorila2"></td>
+                        </li>
+                        <li>
+                            Els goril·les viuen als arbres? 
+                            <td><input type="text" id="preguntaGorila3"></td>
+                        </li>
+                        <li>
+                            Poden nedar? 
+                            <td><input type="text" id="preguntaGorila4"></td>
+                        </li>
+                        <li>
+                            Què fan quan són petits? 
+                            <td><input type="text" id="preguntaGorila5"></td>
+                        </li>
+                        <li>
+                            Els goril·les ataquen altres animals? 
+                            <td><input type="text" id="preguntaGorila6"></td>
+                        </li>
+                        <li>
+                            Quants anys poden arribar a viure els goril·les? 
+                            <td><input type="text" id="preguntaGorila7"></td>
+                        </li>
+                        <li>
+                            Com tenen el cos?
+                            <td><input type="text" id="preguntaGorila8"></td>
+                        </li>
+                    </ol>
+                    <br>
+
+                </div>
+
+                <!-- Ejercicio 31 -->
+                <div id="game31">
+                    <h4>Juego 31</h4>
+                    <h3>Compta i completa les taules:</h3>
+                    <div class="figura">
+                        <img src="imgs/ejer31.png" alt="figura">
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Caps</th>
+                                <th>Cossos</th>
+                                <th>Ulls</th>
+                                <th>Nassos</th>
+                                <th>Oreilles</th>
+                                <th>Mans</th>
+                                <th>Peus</th>
+                                <th>Potes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="number" id="caps"></td>
+                                <td><input type="number" id="cossos"></td>
+                                <td><input type="number" id="ulls"></td>
+                                <td><input type="number" id="nassos"></td>
+                                <td><input type="number" id="oreilles"></td>
+                                <td><input type="number" id="mans"></td>
+                                <td><input type="number" id="peus"></td>
+                                <td><input type="number" id="potes"></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                    <br>
+
+                </div>
+
+                <!-- Ejercicio 32 -->
+                <div id="game32">
+                    <h4>Juego 32</h4>
+                    <h3>Pinta el dibuix anterior i fes la descripció d'aquest animal imaginari:</h3>
+                    <p>Aquest animal es diu <input type="text" id="nombreAnimal"> <br> Té <input type="text" id="numeroCaps"> caps</p>
+                    <p><input type="text" id="descripcio"></p>
+                    
+                </div>
+
+                <!-- Ejercicio 33 -->
+                <div id="game33">
+                    <h4>Juego 33</h4>
+                    <h3>Llegeix:</h3>
+                    <p>A casa som 8 persones.
+                        El meu pare es diu Antoni. Té 51 anys i és paleta.
+                        La meva mare es diu Pilar. Té 49 anys i treballa en una libreria.
+                        Som 5 germans: la Sara, la Maria, en Pol, la Tania i jo.
+                        La Sara és la més gran, té 24 anys i treballa en una fleca. Després ve la Maria que té 22 anys i treballa en una perruqueria. Tot seguit ve en Pol que te 20 anys i estudia periodisme a Barcelona. La Tania té 17 anys i fa segon de batxillerat.
+                        Finalment vinc jo, que sóc el més petit. Em dic Pau, tinc 15 anys i estudio quart d'E.S.O.
+                        Els meus avis paterns també viuen a casa. Es diuen Jaume i Neus, i tots dos tenen 73 anys.</p>
+                    <h4>- Ara explica com és la teva família:</h4>
+                    <p>A casa vivim <input type="text" id="juego33-1"> <br> El meu pare <input type="text" id="juego33-2"> <br> <input type="text" id="juego33-3"> <br> <input type="text" id="juego33-4"> <p>
+                </div>
+            </div>
+            <br>
+
         </section>
 
         <!-- Puntuacion -->
         <aside id="score">
-            <p>Score</p>
+            <div class="title">
+                <h3>Puntuacion</h3>
+            </div>
+            <div class="control">
+                <ul>
+                    <li><a href="#game1">Juego 1</a></li>
+                    <li><a href="#game2">Juego 2</a></li>
+                    <li><a href="#game3">Juego 3</a></li>
+                    <li><a href="#game4">Juego 4</a></li>
+                    <li><a href="#game31">Juego 31</a></li>
+                    <li><a href="#game32">Juego 32</a></li>
+                    <li><a href="#game33">Juego 33</a></li>
+                </ul>
+            </div>
         </aside>
     </main>
     <footer>
